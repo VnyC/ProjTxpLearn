@@ -23,6 +23,7 @@
 
 
 
+
 /* Setting current breakpoint: 1024 px ++ */
 
 
@@ -43,7 +44,6 @@ body {
 }
 
 #navbar .container {
-  max-width: 1140px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -56,6 +56,8 @@ body {
   flex-direction: row;
   list-style-type: none;
 }
+
+
 
 ul li {
   padding: 6px 0px;
@@ -88,7 +90,13 @@ ul li a:hover {
 }
 
 
+
+
+
 /* Banner */
+
+
+
 #banner {
   min-height: 100vh;
   width: 100%;
@@ -115,7 +123,7 @@ ul li a:hover {
   background-size: cover;
   opacity: 0.4;
   filter: alpha(opacity=40);
-  height: 100%;
+  height: 80%;
   width: 100%;
 }
 
@@ -165,6 +173,12 @@ ul li a:hover {
   transform: scale(1.1, 1.1);
 }
 
+/*Buffer for Home*/
+#bufferHome{
+  height: 30vh;
+}
+
+
 /* Home Section */
 
 #home {
@@ -207,7 +221,7 @@ ul li a:hover {
   font-weight: 100;
   padding-top: 30px;
   padding-bottom: 15px;
-  margin: auto;
+  margin: auto ;
   box-sizing: border-box;
   font-size: 12pt;
   line-height: 1.7em;
@@ -215,7 +229,19 @@ ul li a:hover {
 #test {
   height: 100vh;
 }
+
+
+
+
+
+
+
 /* Newsletters */
+
+#bufferNewsLetter{
+  height: 20vh;
+}
+
 
 #newsletters {
   height: 100vh;
@@ -232,7 +258,8 @@ ul li a:hover {
 }
 
 #newslettersCarousel{
-  align-items: center;
+  display: flex;
+  justify-content: center;
   width: 70%;
 }
 
@@ -275,7 +302,7 @@ ul li a:hover {
   background-color: #2A265F;
   color: #fff;
   padding: 30px;
-  max-width: 250px;
+ /* max-width: 250px;*/
 }
 
 .nl-img a {
@@ -298,9 +325,35 @@ ul li a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Webinars */
+#webinar-carousel{
+  text-align: center;
+}
+
+#webinarCar{
+  width: 100%;
+  margin: auto;
+}
+
 #webinars {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 /*Just the background stuff */
@@ -410,6 +463,7 @@ img.left {
   font-size: 0.95rem;
   line-height: 150%;
   color: #4B4B4B;
+  margin: 5px;
 }
 
 /* DATE of release */
@@ -459,11 +513,26 @@ img.left {
   box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
 }
 
+
+
+
 .carousel-control-next,
 .carousel-control-prev,
-.carInd {
+.carInd
+ {
     filter: invert(100%);
 }
+
+#carIndbottom {
+                    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+             }
 
 #Ideasection{
   background-image: url("images/light-grey-curve-bg.png");
@@ -510,5 +579,135 @@ img.left {
 #mailchimpEmbed{
   width: 60%;
   margin: 200px auto 250px; 
+}
+
+
+
+
+
+/*Media queries always bottom of code;)*/
+
+
+@media screen and (max-width: 600px) {
+
+  .branding{
+    margin:auto;
+  }
+
+  .nav{
+    margin: auto;
+  }
+
+  .nav ul {
+    display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto;
+}
+
+  ul li a{
+    --fill-color: #141223;
+  position: relative;
+  display: block;
+  padding: .5px 0px;
+  font: 350 0.7rem Raleway, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+  letter-spacing: 3px;
+  }
+
+.navBarTop{
+  margin: auto;
+}
+
+ul li{
+  margin-left: auto;
+  padding: 6px 6px;
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  padding:0;
+  margin: auto;
+}
+
+#home .container{
+  padding-top: 30vh;
+}
+
+#banner{
+  min-height: 60vh;
+}
+
+.quote h1{
+  font-size: 2em;
+}
+
+
+.container .img img{
+  /*display: none*/
+  height: 13px;
+}
+
+#bufferHome{
+  height: 40vh;
+}
+
+
+#bufferNewsLetter{
+  height: 40vh;
+}
+
+#newsletters{
+  background-image: none;
+}
+
+#newslettersCarousel{
+  display: block;
+  width: 100%;
+}
+
+.nl-card{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  height: 30em;
+}
+.nl-img{
+
+  width: 100%;
+}
+
+
+.nl-info{
+
+  padding: 4px 20px;
+}
+
+.webinar-card{
+  width: 100%;
+
+  height: 580px;
+}
+
+.webinar-card .thumbnail{
+  width: 100%;
+  height: 240px;
+  margin: 0;
+  left: 0;
+
+
+}
+
+.webinar-card .right{
+  margin: 0;
+}
+
+.webinar-card ul{
+  margin: 0;
+}
+
 }
 
