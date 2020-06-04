@@ -121,9 +121,10 @@ ul li a:hover {
   background-image: url("images/ian-schneider-PAykYb-8Er8-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   opacity: 0.4;
   filter: alpha(opacity=40);
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
 
@@ -173,9 +174,49 @@ ul li a:hover {
   transform: scale(1.1, 1.1);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Buffer for Home*/
 #bufferHome{
-  height: 30vh;
+  height: 10vh;
 }
 
 
@@ -187,7 +228,7 @@ ul li a:hover {
   width: 100%;
   flex-direction: column;
   display: flex;
-  position: relative;
+  position: absolute;
   justify-content: center;
   align-items: center;
 }
@@ -195,7 +236,7 @@ ul li a:hover {
 #home .container {
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
+  max-width: 100%;
   justify-content: space-around;
   padding: 10px 30px;
 }
@@ -236,10 +277,46 @@ ul li a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Newsletters */
 
 #bufferNewsLetter{
-  height: 20vh;
+  height: 40vh;
 }
 
 
@@ -260,7 +337,8 @@ ul li a:hover {
 #newslettersCarousel{
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 100%;
+  padding: 22%;
 }
 
 
@@ -271,9 +349,9 @@ ul li a:hover {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   max-width: 100%;
-  margin: 20px;
+  margin: 0;
   overflow: hidden;
-  width: 56.25em;
+  width: 100%;
   height: 15.6875em;
 }
 
@@ -323,6 +401,25 @@ ul li a:hover {
   justify-content: center;
   flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -516,6 +613,324 @@ img.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .branding{
+    margin:auto;
+  }
+
+  .nav{
+    margin: auto;
+  }
+
+  .nav ul {
+    display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto;
+}
+
+  ul li a{
+    --fill-color: #141223;
+  position: relative;
+  display: block;
+  padding: .5px 0px;
+  font: 350 0.7rem Raleway, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+  letter-spacing: 3px;
+  }
+
+.navBarTop{
+  margin: auto;
+}
+
+ul li{
+  margin-left: auto;
+  padding: 6px 6px;
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  padding:0;
+  margin: auto;
+}
+
+#home .container{
+  padding-top: 30vh;
+}
+
+#banner:before {
+  height: 100%;
+  background-position: center;
+
+}
+
+#banner{
+  min-height: 100vh;
+}
+
+.quote h1{
+  font-size: 2em;
+}
+
+
+.container .img img{
+  /*display: none*/
+  height: 13px;
+}
+
+#bufferHome{
+  height: 40vh;
+}
+
+
+#bufferNewsLetter{
+  height: 110vh;
+}
+
+#newsletters{
+  background-image: none;
+}
+
+#newslettersCarousel{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.nl-card{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 30em;
+}
+.nl-img{
+
+  width: 100%;
+}
+
+
+.nl-info{
+
+  padding: 4px 20px;
+}
+
+.webinar-card{
+  width: 100%;
+
+  height: 580px;
+}
+
+.webinar-card .thumbnail{
+  width: 100%;
+  height: 240px;
+  margin: 0;
+  left: 0;
+
+
+}
+
+.webinar-card .right{
+  margin: 0;
+}
+
+.webinar-card ul{
+  margin: 0;
+}
+
+}
+
+/******************************************************/
+
+
+
+
+/*Media queries always bottom of code;)*/
+@media screen and (max-width: 340px){
+
+  .branding{
+    margin:auto;
+  }
+
+  .nav{
+    margin: auto;
+  }
+
+  .nav ul {
+    display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto;
+}
+
+  ul li a{
+    --fill-color: #141223;
+  position: relative;
+  display: block;
+  padding: .5px 0px;
+  font: 350 0.7rem Raleway, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+  letter-spacing: 3px;
+  }
+
+.navBarTop{
+  margin: auto;
+}
+
+ul li{
+  margin-left: auto;
+  padding: 6px 6px;
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  padding:0;
+  margin: auto;
+}
+
+#home .container{
+  padding-top: 30vh;
+}
+
+#banner:before {
+  height: 100%;
+  background-position: center;
+
+}
+
+#banner{
+  min-height: 100vh;
+}
+
+.quote h1{
+  font-size: 2em;
+}
+
+
+.container .img img{
+  /*display: none*/
+  height: 13px;
+}
+
+#bufferHome{
+  height: 50vh;
+}
+
+
+#bufferNewsLetter{
+  height: 140vh;
+}
+
+#newsletters{
+  background-image: none;
+}
+
+#newslettersCarousel{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.nl-card{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 30em;
+}
+.nl-img{
+
+  width: 100%;
+}
+
+
+.nl-info{
+
+  padding: 4px 20px;
+}
+
+.webinar-card{
+  width: 100%;
+
+  height: 580px;
+}
+
+.webinar-card .thumbnail{
+  width: 100%;
+  height: 240px;
+  margin: 0;
+  left: 0;
+
+
+}
+
+.webinar-card .right{
+  margin: 0;
+}
+
+.webinar-card ul{
+  margin: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel-control-next,
 .carousel-control-prev,
 .carInd
@@ -585,129 +1000,5 @@ img.left {
 
 
 
-/*Media queries always bottom of code;)*/
 
-
-@media screen and (max-width: 600px) {
-
-  .branding{
-    margin:auto;
-  }
-
-  .nav{
-    margin: auto;
-  }
-
-  .nav ul {
-    display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  margin: auto;
-}
-
-  ul li a{
-    --fill-color: #141223;
-  position: relative;
-  display: block;
-  padding: .5px 0px;
-  font: 350 0.7rem Raleway, sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: auto;
-  letter-spacing: 3px;
-  }
-
-.navBarTop{
-  margin: auto;
-}
-
-ul li{
-  margin-left: auto;
-  padding: 6px 6px;
-  display: flex;
-  justify-content: space-around;
-}
-ul{
-  padding:0;
-  margin: auto;
-}
-
-#home .container{
-  padding-top: 30vh;
-}
-
-#banner{
-  min-height: 60vh;
-}
-
-.quote h1{
-  font-size: 2em;
-}
-
-
-.container .img img{
-  /*display: none*/
-  height: 13px;
-}
-
-#bufferHome{
-  height: 40vh;
-}
-
-
-#bufferNewsLetter{
-  height: 40vh;
-}
-
-#newsletters{
-  background-image: none;
-}
-
-#newslettersCarousel{
-  display: block;
-  width: 100%;
-}
-
-.nl-card{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0;
-  height: 30em;
-}
-.nl-img{
-
-  width: 100%;
-}
-
-
-.nl-info{
-
-  padding: 4px 20px;
-}
-
-.webinar-card{
-  width: 100%;
-
-  height: 580px;
-}
-
-.webinar-card .thumbnail{
-  width: 100%;
-  height: 240px;
-  margin: 0;
-  left: 0;
-
-
-}
-
-.webinar-card .right{
-  margin: 0;
-}
-
-.webinar-card ul{
-  margin: 0;
-}
-
-}
 
