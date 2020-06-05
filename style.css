@@ -863,6 +863,10 @@ ul{
 .webinar-card ul{
   margin: 0;
 }
+  
+  #mailchimpEmbed{
+    width:100%;
+  }
 
 }
 
@@ -1000,6 +1004,12 @@ ul{
 .webinar-card ul{
   margin: 0;
 }
+  
+  #mailchimpEmbed{
+    width:100%;
+  }
+  
+  
 }
 
 
