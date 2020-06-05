@@ -679,12 +679,12 @@ img.left {
              }
 
 #Ideasection{
-  background-image: url("images/light-grey-curve-bg.png");
+  /*background-image: url("images/light-grey-curve-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;*/
   height: 100vh;
-  z-index: -1;
 }
 
 #particles-js{
