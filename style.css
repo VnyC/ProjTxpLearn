@@ -692,11 +692,11 @@ img.left {
   width: 100%;
   filter: invert(100%);
   position: absolute;
-  z-index: 2;
 }
 
 #ideas{
   text-align: center;
+  z-index: 2;
  
 }
 
