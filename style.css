@@ -691,14 +691,12 @@ img.left {
   height: 100vh;
   width: 100%;
   filter: invert(100%);
-  z-index: -1;
   position: absolute;
 }
 
 #ideas{
   text-align: center;
-  z-index: 4;
-
+ 
 }
 
 /*#shareIdeasButton{
