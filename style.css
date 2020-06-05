@@ -865,8 +865,16 @@ ul{
   margin: 0;
 }
   
+#Ideasection{
+  background-color: #f1f4f9;
+  }
+  
   #mailchimpEmbed{
     width:100%;
+  }
+  
+  #mc_embed_signup{
+    width: 100%;
   }
 
 }
@@ -1005,11 +1013,18 @@ ul{
 .webinar-card ul{
   margin: 0;
 }
+ 
+#Ideasection{
+  background-color: #f1f4f9;
+  }
   
   #mailchimpEmbed{
     width:100%;
   }
-  
+ 
+  #mc_embed_signup{
+    width: 100%;
+  }
   
 }
 
