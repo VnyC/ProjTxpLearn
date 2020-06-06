@@ -1000,6 +1000,13 @@ ul{
 }
 
 
+#Ideasection{
+
+  background-position: center left;
+  background-size: 70%;
+}
+
+
 #mailchimpEmbed{
   margin-top:20vh;
   width: 50%;
