@@ -668,7 +668,7 @@ img.left {
 }
 
 #carIndbottom {
-                    position: absolute;
+  position: absolute;
     bottom: 50px;
     left: 50%;
     z-index: 15;
@@ -846,7 +846,6 @@ ul{
     width:100%;
   }
   
-
 }
 
 /******************************************************/
@@ -994,24 +993,11 @@ ul{
     margin: 0;
     width:100%;
   }
- 
-
   
 }
 
 
-#Ideasection{
 
-  background-position: center left;
-  background-size: 70%;
-}
-
-
-#mailchimpEmbed{
-  margin-top:20vh;
-  width: 50%;
-  float: right;
-}
 
 
 
