@@ -682,7 +682,7 @@ img.left {
   background-image: url("images/ideaback.png");
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 20vh 30vh;
+  background-size: contain;
   background-color: #f4f6f8;
   height: 100vh;
 }
