@@ -680,7 +680,7 @@ img.left {
 
 #Ideasection{
   background-image: url("images/ideaback.png");
-  background-position: left;
+  background-position: center left;
   background-repeat: no-repeat;
   background-size: 50% 50%;
   background-color: #f4f6f8;
