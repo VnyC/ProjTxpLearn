@@ -679,7 +679,11 @@ img.left {
              }
 
 #Ideasection{
-border: 10vh solid #f1f4f9;
+  background-image: url("images/ideaback.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 20vh 30vh;
+  background-color: #f4f6f8;
   height: 100vh;
 }
 
@@ -701,6 +705,7 @@ border: 10vh solid #f1f4f9;
 #mc_embed_signup{
   width:100%;
   background: #f4f6f8;
+  margin-top: 25vh;
 }
 
 
