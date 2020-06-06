@@ -990,7 +990,7 @@ ul{
 }
   }
   
-  #mailchimpEmbed{
+#mailchimpEmbed{
     margin: 0;
     width:100%;
   }
@@ -1000,7 +1000,11 @@ ul{
 }
 
 
-
+#mailchimpEmbed{
+  margin-top:20vh;
+  width: 50%;
+  float: right;
+}
 
 
 
