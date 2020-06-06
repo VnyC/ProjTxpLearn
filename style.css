@@ -837,12 +837,11 @@ ul{
 }
   
 #Ideasection{
-  background-color: #f1f4f9;
-  }
+  background-position: bottom center;
+}
   
   #mailchimpEmbed{
-    width:100%;
-    margin:auto 1vh;
+    width:80%;
   }
   
   #mc_embed_signup{
@@ -987,12 +986,12 @@ ul{
 }
  
 #Ideasection{
-  background-color: #f1f4f9;
+  background-position: bottom center;
+}
   }
   
   #mailchimpEmbed{
-    width:100%;
-    margin: auto 1vh;
+    width:80%;
   }
  
   #mc_embed_signup{
