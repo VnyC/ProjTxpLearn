@@ -679,7 +679,7 @@ img.left {
              }
 
 #Ideasection{
-border: 26px solid #f1f4f9;
+border: 10vh solid #f1f4f9;
   height: 100vh;
 }
 
@@ -693,8 +693,14 @@ border: 26px solid #f1f4f9;
 
 
 #mailchimpEmbed{
-  width: 60%;
-  margin: 200px auto 250px; 
+  width: 40%;
+  margin:0; 
+  float: right;
+}
+
+#mc_embed_signup{
+  width:100%;
+  background: #f4f6f8;
 }
 
 
