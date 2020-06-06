@@ -697,7 +697,8 @@ img.left {
 
 
 #mailchimpEmbed{
-  width: 40%;
+  margin-top:20vh;
+  width: 50%;
   float: right;
 }
 
@@ -841,12 +842,10 @@ ul{
 }
   
   #mailchimpEmbed{
-    width:80%;
+    margin:0;
+    width:100%;
   }
   
-  #mc_embed_signup{
-    width: 100%;
-  }
 
 }
 
@@ -992,12 +991,11 @@ ul{
   }
   
   #mailchimpEmbed{
-    width:80%;
+    margin: 0;
+    width:100%;
   }
  
-  #mc_embed_signup{
-    width: 100%;
-  }
+
   
 }
 
